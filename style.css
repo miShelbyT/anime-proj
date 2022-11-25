@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap");
+
+body {
+  font-family: "Rubik Microbe", cursive;
+  padding: 0;
+  margin: 0;
+  background-color: #ccc;
+  background-image: radial-gradient(#ccc, #9198e5);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#header {
+  text-align: center;
+}
+
+header {
+  background-color: rgb(113, 83, 98);
+  padding: 9px;
+  margin-bottom: 10px;
+  color: rgb(215, 249, 249);
+  letter-spacing: 0.1rem;
+}
+
+main {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-around;
+}
+
+div.anime {
+  height: 500px;
+  width: 60%;
+  border: 1px dotted purple;
+  background-color: rgb(242, 159, 200);
+  margin-bottom: 7px;
+  padding: 24px;
+  overflow: scroll;
+  text-align: center;
+}
+
+#deets {
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+
+div.anime img {
+  height: 80%;
+  float: left;
+  margin-right: 12px;
+}
+
+li::marker {
+  color: hotpink;
+}
+
+li {
+  cursor: pointer;
+}
+
+p {
+  text-align: justify;
+  line-height: 150%;
+}
+
+small {
+  display: block;
+}

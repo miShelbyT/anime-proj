@@ -68,3 +68,7 @@ p {
 small {
   display: block;
 }
+
+form {
+  margin: 20px 0;
+}

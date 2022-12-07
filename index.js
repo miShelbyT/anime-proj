@@ -43,7 +43,9 @@ function addRandomFilm() {
 
 function removeAnimeContent() {
   const placeholder = document.querySelector("#anime > h3")
+  const runTime = document.querySelector("#anime small")
   placeholder && placeholder.remove()
+  runTime && runTime.remove()
   Array.from(document.getElementById("name-dir").children).forEach(node => node.remove())
   Array.from(document.getElementById("photo-desc").children).forEach(node => node.remove())
   document.querySelector("form") && document.querySelector("form").remove()

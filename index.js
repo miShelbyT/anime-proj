@@ -1,10 +1,12 @@
 const URL = 'https://anime-server-films.onrender.com'
-const title = document.getElementById("header");
+const title = document.querySelector("#header h3");
 const ul = document.getElementById("list");
 const animeContainer = document.getElementById("anime");
+const instructions = document.querySelector("#tooltip-text")
 let currentFilm, movieList = [];
 
 title.textContent = "Anime Store";
+instructions.textContent = "\u{1F499} Welcome to the anime store. To use, click on a \u{1F3AC} item from the list or simply click the roulette button! \u{1F499}"
 
 const init = () => {
   fetch(`${URL}/films`)
